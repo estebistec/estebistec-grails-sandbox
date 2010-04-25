@@ -44,8 +44,17 @@
 	        content you may choose. Below is a list of controllers that are currently deployed in this application,
 	        click on each to execute its default action:</p>
 
+	        <div id="Filter Tests" class="dialog">
+				<h2>Filter Tests</h2>
+				<ul>
+				    <li><a href="filterTest/target">filterTest/target</a></li>
+				    <li><a href="filterTest/target?one=on">filterTest/target?one=on</a></li>
+				    <li><a href="filterTest/target?two=on">filterTest/target?two=on</a></li>
+				    <li><a href="filterTest/target?one=on&two=on">filterTest/target?one=on&two=on</a></li>
+				</ul>
+	        </div>
 	        <div id="RESTful Grails" class="dialog">
-				<h2>RESTful Task API:</h2>
+				<h2>RESTful Task API</h2>
 	        </div>
 		</div>
     </body>
