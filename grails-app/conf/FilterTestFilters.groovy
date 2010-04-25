@@ -18,5 +18,15 @@ class FilterTestFilters {
             	true
             }
         }
+        filterThree(uri:'/filterTest/target') {
+            before = {
+            	if(!params.three) {
+            		flash.message = 'filterTest.filterThree.failure'
+                    response.sendError 403
+                    return false
+            	}
+            	true
+            }
+        }
     }
 }

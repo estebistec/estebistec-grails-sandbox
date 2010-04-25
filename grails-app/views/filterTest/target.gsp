@@ -17,6 +17,14 @@
 		</div>
 		<div id="pageBody">
 	        <h1>Target view for Filter Tests</h1>
+	        <dl>
+	            <dt>one</dt>
+	            <dd>${params.one}</dd>
+	            <dt>two</dt>
+	            <dd>${params.two}</dd>
+	            <dt>three</dt>
+	            <dd>${params.three}</dd>
+	        </dl>
 		</div>
     </body>
 </html>
