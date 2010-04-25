@@ -75,7 +75,6 @@
 						<g:each var="plugin" in="${pluginManager.allPlugins}">
 							<li>${plugin.name} - ${plugin.version}</li>
 						</g:each>
-
 					</ul>
 				</div>
 				<div class="panelBtm">
@@ -91,13 +90,8 @@
 	        content you may choose. Below is a list of controllers that are currently deployed in this application,
 	        click on each to execute its default action:</p>
 
-	        <div id="controllerList" class="dialog">
-				<h2>Available Controllers:</h2>
-	            <ul>
-	              <g:each var="c" in="${grailsApplication.controllerClasses}">
-	                    <li class="controller"><g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link></li>
-	              </g:each>
-	            </ul>
+	        <div id="RESTful Grails" class="dialog">
+				<h2>RESTful Task API:</h2>
 	        </div>
 		</div>
     </body>
